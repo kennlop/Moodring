@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'ABCAsfaltTrial-Regular';
+    src: url('fonts/ABCAsfaltTrial-Regular.otf') format('opentype');
+    /* Add more src lines if you have multiple font formats */
+}
+
+@font-face {
+    font-family: 'ABCOraclePlusVariable-Trial';
+    src: url('fonts/ABCOraclePlusVariable-Trial.ttf') format('opentype');
+    /* Add more src lines if you have multiple font formats */
+}
+
+@font-face {
+    font-family: 'CivilitateTrialV0.2-Hairline';
+    src: url('fonts/CivilitateTrialV0.2-Hairline.ttf') format('opentype');
+    /* Add more src lines if you have multiple font formats */
+}
+
+:root {
+    /* Happy mode */
+    --bg-color-happy: #FFE55F;
+    /*--text-color-happy: #383838;*/
+  
+    /* Lucky mode */
+    --bg-color-lucky: #45EF6A;
+  
+    /* Calm mode */
+    --bg-color-calm: #45E5EF;
+  
+    /* Cool mode */
+    --bg-color-cool: #C67EDF;
+  
+    /* Romantic mode */
+    --bg-color-romantic: #EF45A1;
+
+    --bg-grey: #f2f2f2;
+  }
+  
+  body.happy {
+    background-color: var(--bg-color-happy);
+    color: var(--text-color-happy);
+  }
+  
+  body.lucky {
+    background-color: var(--bg-color-lucky);
+    color: var(--text-color-lucky);
+  }
+  
+  body.calm {
+    background-color: var(--bg-color-calm);
+    color: var(--text-color-calm);
+  }
+  
+  body.cool {
+    background-color: var(--bg-color-cool);
+    color: var(--text-color-cool);
+  }
+  
+  body.romantic {
+    background-color: var(--bg-color-romantic);
+    color: var(--text-color-romantic);
+  }
+
+.neutral{
+    background-color: black;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.02em;
+    }
+
+.index-popup{
+    background-color: #F2F2F2;
+    width: 722px;
+    height: 144px;
+    flex-shrink: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.black-bg{
+    z-index: 1;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+.popup-text{
+    z-index: 2;
+    text-align: center;
+    font-family: 'ABCOraclePlusVariable-Trial';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.popup-button-container{
+    text-align: center;
+}
+
+.popup-happy, .popup-lucky, .popup-calm, .popup-cool, .popup-romantic{
+    border-radius: 20px;
+    border: 1px solid black;
+    color: black;
+    padding: 0px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'ABCOraclePlusVariable-Trial', sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    height: 28px;
+    margin-right: 3px;
+    background: transparent;
+}
+
+.popup-happy:hover{
+    background: linear-gradient(180deg, rgba(255, 229, 95, 0) 22.92%, #FFE55F 100%);
+}
+
+.popup-lucky:hover{
+    background: linear-gradient(180deg, rgba(69, 239, 106, 0) 18.23%, #45EF6A 100%);
+}
+
+.popup-calm:hover{
+    background: linear-gradient(180deg, rgba(69, 229, 239, 0) 15.62%, #45E5EF 100%);
+}
+
+.popup-cool:hover{
+    background: linear-gradient(180deg, rgba(198, 126, 223, 0) 16.67%, #C67EDF 100%)
+}
+
+.popup-romantic:hover{
+    background: linear-gradient(180deg, rgba(239, 69, 161, 0) 21.35%, #EF45A1 100%);
+}
+
+
+/*CODE FOR THE HEADER*/
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    padding: 10px;
+    text-decoration: none;
+    height: 141px;
+    
+}
+
+.header-item {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: BLACK;
+    font-family: 'ABCOraclePlusVariable-Trial';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.nav-item:first-child {
+    margin-right: 100px;
+}
+
+
+.header-menu.happy{
+    background: linear-gradient(180deg, #FFE55F 0%, rgba(242, 242, 242, 0.00) 100%);
+}
+
+.header-menu.lucky {
+    background: linear-gradient(180deg, #45EF6A 0%, rgba(69, 239, 106, 0) 100%);
+}
+  
+  .header-menu.calm {
+    background: linear-gradient(180deg, #45E5EF 0%, rgba(69, 229, 239, 0) 100%);
+}
+  
+  .header-menu.cool {
+    background: linear-gradient(180deg, #C67EDF 0%, rgba(198, 126, 223, 0) 100%)
+}
+  
+  .header-menu.romantic {
+    background: linear-gradient(180deg, #EF49A2 0%, rgba(242, 242, 242, 0.00) 100%);
+}

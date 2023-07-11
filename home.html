@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Ring Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="header-menu">
+        <div class="header-item">
+          <a href="#" class="nav-item">EVENTS</a>
+          <a href="#" class="nav-item">MENU</a>
+        </div>
+        <div class="header-item">
+          <a href="#" class="nav-item">ABOUT</a>
+          <a href="#" class="nav-item">CONTACT</a>
+        </div>
+    </header>
+    <script>
+        const headerMenu = document.querySelector('.header-menu');
+        const storedColorMode = localStorage.getItem('colorMode');
+        
+        if (storedColorMode) {
+            headerMenu.classList.add(storedColorMode);
+        }
+    </script>
+</body>
+</html>

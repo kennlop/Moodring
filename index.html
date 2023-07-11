@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Ring</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="neutral">
+    <div class="index-popup">
+        <p class="popup-text">
+            How are you feeling today?
+        </p>
+        <div class="popup-button-container">
+            <button class="popup-happy" onclick="changeColorModeAndNavigate('happy')">HAPPY</button>
+            <button class="popup-lucky" onclick="changeColorModeAndNavigate('lucky')">LUCKY</button>
+            <button class="popup-calm" onclick="changeColorModeAndNavigate('calm')">CALM</button>
+            <button class="popup-cool" onclick="changeColorModeAndNavigate('cool')">COOL</button>
+            <button class="popup-romantic" onclick="changeColorModeAndNavigate('romantic')">ROMANTIC</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
