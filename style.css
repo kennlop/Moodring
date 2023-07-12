@@ -61,7 +61,7 @@
     color: var(--text-color-romantic);
   }
 
-.ABCORACLEsm{
+.ABCORACLEsm , .message{
     font-family: 'ABCOraclePlusVariable-Trial';
     font-size: 14px;
     font-style: normal;
@@ -75,6 +75,14 @@
     font-style: normal;
     font-weight: 300;
     line-height: 20px;
+}
+
+.ABCORACLExlg{
+    font-family: 'ABCOraclePlusVariable-Trial';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
 }
 
 .neutral{
@@ -243,18 +251,18 @@ body{
     margin-bottom: -100px;
 }
 
-.center-text{
-   
+.center-tagline{
+    margin-top: 160px;
 }
 
-.home-tagline-bold, .home-tagline-bold2{
+.home-tagline-bold, .home-tagline-bold2, .name, .email, .send, .send-box{
     font-family: 'ABCAsfaltTrial-Regular';
     font-size: 90.527px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 160px;
     text-align: center;
+    
 }
 
 .event-list{
@@ -393,10 +401,88 @@ body > div.center-tagline2 > div > p.home-tagline-bold{
 
 .drinks-more{
     margin-top: 20px;
+    margin-bottom: -50px;
     display: flex;
     justify-content: center;
 }
 
 .hand2{
     margin-top: 12px;
+}
+
+.form-copy{
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.form-contact-info{
+    position: relative;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: -110px;
+}
+
+/*STLYING FOR THE FORM*/
+/*STLYING FOR THE FORM*/
+/*STLYING FOR THE FORM*/
+
+.form-div{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    text-align:end;
+    margin-top: 50px;
+    width: 612px;
+}
+
+.form-fields{
+    display: flex;
+    flex-direction: column;
+}
+
+  .contact-form input {
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+  
+  .contact-form input::placeholder {
+    color: black;
+  }
+  
+  .signup-box a {
+    color: black;
+  }
+
+.name, .email, .message{
+    text-align: left;
+    border-bottom: 1px solid black !important;
+    padding-left: 10px;
+}
+
+.send, .send-box{
+    text-align: right;
+    padding-right: 10px;
+    background-color: #000;
+}
+
+a{
+    color: white !important;
+    text-decoration: none;
+    margin-bottom: -100px;
+}
+
+.message{
+    padding-bottom: 196px;
 }
