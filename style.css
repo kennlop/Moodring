@@ -6,13 +6,13 @@
 
 @font-face {
     font-family: 'ABCOraclePlusVariable-Trial';
-    src: url('fonts/ABCOraclePlusVariable-Trial.ttf') format('opentype');
+    src: url('fonts/ABCOraclePlusVariable-Trial.ttf') format('truetype');
     /* Add more src lines if you have multiple font formats */
 }
 
 @font-face {
     font-family: 'CivilitateTrialV0.2-Hairline';
-    src: url('fonts/CivilitateTrialV0.2-Hairline.ttf') format('opentype');
+    src: url('fonts/CivilitateTrialV0.2-Hairline.otf') format('opentype');
     /* Add more src lines if you have multiple font formats */
 }
 
@@ -60,6 +60,22 @@
     background-color: var(--bg-color-romantic);
     color: var(--text-color-romantic);
   }
+
+.ABCORACLEsm{
+    font-family: 'ABCOraclePlusVariable-Trial';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.ABCORACLElg{
+    font-family: 'ABCOraclePlusVariable-Trial';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
 
 .neutral{
     background-color: black;
@@ -201,4 +217,186 @@ body{
   
   .header-menu.romantic {
     background: linear-gradient(180deg, #EF49A2 0%, rgba(242, 242, 242, 0.00) 100%);
+}
+
+.page-title{
+    font-family: 'CivilitateTrialV0.2-Hairline';
+    font-size: 170.823px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    text-align: center;
+    margin-top: -115px;
+}
+
+.home-tagline{
+    font-family: 'ABCOraclePlusVariable-Trial';
+    text-align: center;
+    font-family: ABC Oracle Plus Variable Unlicensed Trial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+
+    height: 48px; 
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+.center-text{
+   
+}
+
+.home-tagline-bold, .home-tagline-bold2{
+    font-family: 'ABCAsfaltTrial-Regular';
+    font-size: 90.527px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 160px;
+    text-align: center;
+}
+
+.event-list{
+    position: relative;
+    margin-top: -35px;
+
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0px;
+    padding-left: 200px;
+    width: 1200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+
+.event1, .event2, .event3, .event4, .event5, .event-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.event-more{
+    flex-direction: row;
+}
+
+.moons{
+    position: absolute;
+}
+
+.event-name{
+    text-align: center;
+    background-color: #45E5EF;
+}
+
+div.event1 > p{
+    margin-right: 60px;
+}
+
+div.event2 > p{
+    margin-left: 10px;
+}
+
+div.event4 > p{
+    margin-right: 10px;
+}
+
+div.event5 > p{
+    margin-left: 60px;
+}
+
+/*MOON HOVER EFFECTS*/
+.event1:hover .moons {
+    /* Styles for the SVG on hover */
+    fill: black; /* Change the fill color or other SVG properties */
+}
+
+.event2:hover .ABCORACLEsm {
+    /* Styles for the SVG on hover */
+    color: white;
+    z-index: 1;
+}
+.event2:hover .moons {
+    /* Styles for the SVG on hover */
+    fill: black; /* Change the fill color or other SVG properties */
+}
+
+.event3:hover .ABCORACLEsm {
+    /* Styles for the SVG on hover */
+    color: white;
+    z-index: 1;
+}
+.event3:hover .moons {
+    /* Styles for the SVG on hover */
+    fill: black; /* Change the fill color or other SVG properties */
+}
+
+.event4:hover .ABCORACLEsm {
+    /* Styles for the SVG on hover */
+    color: white;
+    z-index: 1;
+}
+.event4:hover .moons {
+    /* Styles for the SVG on hover */
+    fill: black; /* Change the fill color or other SVG properties */
+}
+
+.event5:hover .moons {
+    /* Styles for the SVG on hover */
+    fill: black; /* Change the fill color or other SVG properties */
+}
+
+.home-drink{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.home-tagline-bold2{
+    margin: 0;
+    margin-top: 90px;
+    margin-bottom: -30px;
+}
+
+body > div.center-tagline2 > div > p.home-tagline-bold{
+    margin: 0;
+    line-height: 0;
+}
+
+.thirteen{
+    margin-right: -600px;
+    margin-top: 80px;
+    position:absolute;
+    float: right;
+    justify-content: right;
+    align-items:flex-end;
+}
+
+.bjork{
+    width: 351px;
+    height: 404px;
+}
+
+.bjork-div{
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.drinks-more{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.hand2{
+    margin-top: 12px;
 }
