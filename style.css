@@ -96,7 +96,8 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     letter-spacing: 0.02em;
-    }
+    background-color: #F2F2F2;
+}
 
 .index-popup{
     background-color: #F2F2F2;
