@@ -34,32 +34,7 @@
     --bg-color-romantic: #EF45A1;
 
     --bg-grey: #f2f2f2;
-  }
-  
-  body.happy {
-    background-color: var(--bg-color-happy);
-    color: var(--text-color-happy);
-  }
-  
-  body.lucky {
-    background-color: var(--bg-color-lucky);
-    color: var(--text-color-lucky);
-  }
-  
-  body.calm {
-    background-color: var(--bg-color-calm);
-    color: var(--text-color-calm);
-  }
-  
-  body.cool {
-    background-color: var(--bg-color-cool);
-    color: var(--text-color-cool);
-  }
-  
-  body.romantic {
-    background-color: var(--bg-color-romantic);
-    color: var(--text-color-romantic);
-  }
+}
 
 .ABCORACLEsm , .message{
     font-family: 'ABCOraclePlusVariable-Trial';
@@ -208,7 +183,8 @@ body{
     margin-right: 100px;
 }
 
-
+/*DIFFERENT HEADER COLORS*/
+/*DIFFERENT HEADER COLORS*/
 .header-menu.happy{
     background: linear-gradient(180deg, #FFE55F 0%, rgba(242, 242, 242, 0.00) 100%);
 }
@@ -239,6 +215,15 @@ body{
     margin-top: -115px;
 }
 
+.page-footer{
+    font-family: 'CivilitateTrialV0.2-Hairline';
+    font-size: 130.972px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 0;
+    text-align: center;
+}
+
 .home-tagline{
     font-family: 'ABCOraclePlusVariable-Trial';
     text-align: center;
@@ -264,7 +249,14 @@ body{
     font-weight: 400;
     line-height: normal;
     text-align: center;
-    
+}
+
+.ABCAsfaltTrial-Regular{
+    font-family: 'ABCAsfaltTrial-Regular';
+    font-size: 90.527px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
 }
 
 .event-list{
@@ -487,4 +479,81 @@ a{
 
 .message{
     padding-bottom: 196px;
+}
+
+/*IMPORTANT CENTER SPACING, TRY USING FOR THE MOON*/
+/*SPACE BETWEEN NOT USED */
+.gifs{
+    margin-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif1, .gif2, .gif3, .gif4{
+    margin-right: 10px;
+}
+
+.gif1{
+    width: 265.79px;
+    height: 47.635px;
+}
+.gif2{
+    width: 287.191px;
+    height: 47.635px;
+}
+.gif3{
+    width: 169.83px;
+    height: 47.635px;
+}
+.gif4{
+    width: 225.507px;
+    height: 47.635px;
+}
+.gif5{
+    width: 389.613px;
+    height: 47.365px;
+}
+
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+
+footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    float: inline-start;
+}
+
+.address, .mailing-list, .date , .change-mood{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 0;
+    margin-right: 93px;
+}
+.footer-color{
+    height: 709px;
+}
+/*DIFFERENT FOOTER COLORS*/
+/*DIFFERENT FOOTER COLORS*/
+.footer-color.happy{
+    background: linear-gradient(360deg, #FFE55F 0%, rgba(242, 242, 242, 0.00) 100%);
+}
+
+.footer-color.lucky {
+    background: linear-gradient(360deg, #45EF6A 0%, rgba(69, 239, 106, 0) 100%);
+}
+  
+.footer-color.calm {
+    background: linear-gradient(360deg, #45E5EF 0%, rgba(69, 229, 239, 0) 100%);
+}
+  
+.footer-color.cool {
+    background: linear-gradient(360deg, #C67EDF 0%, rgba(198, 126, 223, 0) 100%)
+}
+.footer-color.romantic{
+    background: linear-gradient(360deg, #EF45A1 0%, rgba(242, 242, 242, 0.00) 100%);
 }
