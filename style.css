@@ -220,8 +220,9 @@ body{
     font-size: 130.972px;
     font-style: normal;
     font-weight: 100;
-    line-height: 0;
+    /*line-height: 0px;*/
     text-align: center;
+    padding-top: 550px;
 }
 
 .home-tagline{
@@ -525,6 +526,7 @@ footer{
     justify-content: center;
     align-items: flex-start;
     float: inline-start;
+    padding-bottom: 70px;
 }
 
 .address, .mailing-list, .date , .change-mood{
@@ -535,6 +537,8 @@ footer{
     margin-right: 93px;
 }
 .footer-color{
+    margin-top: -709px;
+    padding-bottom: 70px;
     height: 709px;
 }
 /*DIFFERENT FOOTER COLORS*/
@@ -557,3 +561,61 @@ footer{
 .footer-color.romantic{
     background: linear-gradient(360deg, #EF45A1 0%, rgba(242, 242, 242, 0.00) 100%);
 }
+
+/*selector phone number in footer section*/
+body > footer > div.address > p.ABCORACLExlg{
+    margin-top:17px;
+}
+
+/*selector for "EMAIL" in the footer*/
+body > footer > div.mailing-list > p.ABCAsfaltTrial-Regular{
+    margin: 0;
+    margin-top: 35px;
+}
+
+/*selector for dates in footer*/
+body > footer > div.date > p:nth-child(1), body > footer > div.date > p:nth-child(2){
+    margin-bottom: 19px;
+}
+
+/*footer buttons*/
+body > footer > div.change-mood > button.popup-happy, button.popup-lucky, button.popup-calm, button.popup-cool, button.popup-romantic{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+/*  "change my mood:"  */
+body > footer > div.change-mood > p{
+    margin-bottom: 10px;
+}
+
+/* footer page navigation */
+body > footer > div.footer-nav > p:nth-child(n) > a{
+    color: black !important;
+    padding: 0px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid transparent;
+    cursor: pointer;
+    line-height: 27px;
+    height: 28px;
+    margin-right: 3px;
+    background: transparent;
+}
+/* footer page navigation hover effect */
+body > footer > div.footer-nav > p:nth-child(n) > a:hover{
+    border-radius: 20px;
+    border: 1px solid black;
+}
+/* home button margins*/
+body > footer > div.footer-nav > p:nth-child(1){
+    margin: 0px;
+    margin-top: 13px;
+    margin-bottom: -5px;
+}
+/* all other  button margins*/
+body > footer > div.footer-nav > p:not(:first-child) {
+  margin-bottom: -5px;
+}
+
