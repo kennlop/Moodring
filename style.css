@@ -245,7 +245,7 @@ body{
     margin-top: 160px;
 }
 
-.home-tagline-bold, .home-tagline-bold2, .name, .email, .send, .send-box{
+.home-tagline-bold, .home-tagline-bold2, .name, .email, .send, .send-box, .home-tagline-bold-cocktails, .home-tagline-bold-special{
     font-family: 'ABCAsfaltTrial-Regular';
     font-size: 90.527px;
     font-style: normal;
@@ -663,11 +663,26 @@ body > div.drinks-menu > div.menu-row-two > span{
    margin-top: 100px;
 }
 
+.home-tagline-bold-cocktails{
+        margin-top: 50px;
+        margin-bottom: 100px;
+}
+
+/* GEMINI SPECIAL */
+.home-tagline-bold-special{
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
 /*svg for gemini and hands symbol on drinks page*/
 .gemini, .hands{
-    margin-top: 115px;
+    margin-top: 70px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.gemini{
+    margin-top: 95px;
 }
 
 .menu-row-one, .menu-row-two, .menu-row-three{
@@ -740,6 +755,7 @@ body > div.drinks-menu > div.menu-bottom > div.menu-right > p:nth-child(3){
 .menu-options{
     display: flex;
     justify-content: center;
+    margin-bottom: 200px;
 }
 
 .menu-options-left, .menu-options-right{
@@ -756,13 +772,63 @@ body > div.drinks-menu > div.menu-bottom > div.menu-right > p:nth-child(3){
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: -200px !important;
 }
 
-body > div.menu-options > div.menu-options-left > p.home-tagline-bold > span{
-    margin-top: -200px !important;
+span.moon {
+    padding-right: 10px;
+    margin-bottom: 25px !important;
+    margin-top: -25px !important;
 }
 
 .heart{
-    transform: rotate(-90deg) !important;
+    transform: rotate(-90deg);
 }
+
+/* Cans and bottles, wiiiiiine*/
+body > div.menu-options > div.menu-options-left > p.home-tagline-bold, body > div.menu-options > div.menu-options-right > p.home-tagline-bold{
+    margin: 0;
+}
+
+
+.seven {
+    font-size: 22px;
+    margin: 0;
+    display: block;
+    padding-bottom: px !important;
+    margin-top: -17px;
+}
+
+/* IMAGES ON THE MENU PAGES, CHERRIES AND ANGELS */
+.cherry-left, .cherry-right{
+    width: 190.534px;
+    height: 170.419px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    margin-top: 0px;
+}
+.cherry-left{
+    left: 5vw;
+}
+
+.cherry-right{
+    right: 5vw;
+}
+
+.angel-left , .angel-right{
+    padding-left: 50px;
+    padding-right: 50px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    margin-top: 160px;
+}
+
+.angel-left{
+    left:0vw;
+}
+
+.angel-right{
+    right: 0vw;
+}
+
+
