@@ -831,4 +831,66 @@ body > div.menu-options > div.menu-options-left > p.home-tagline-bold, body > di
     right: 0vw;
 }
 
+/* ABOUT PAGE */
+/* ABOUT PAGE */
+/* ABOUT PAGE */
+.about-section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -170px;
+    flex-direction: column;
+}
 
+.about-section-one-top, .about-section-one-bottom{
+    display: flex;
+}
+
+/*  we are moodring!! */
+body > div > div.about-section-one-top > p{
+    text-align: left;
+    margin-top: 180px;
+    padding-left: 51px;
+}
+
+/*FULL BAR SERVICE, OPEN DAILY...*/
+body > div > div.about-section-one-bottom > p{
+    text-align: left !important;
+    padding-top: 208px;
+    padding-right: 150px;
+    margin-right: 0px;
+}
+
+.about-section-one-bottom{
+    margin-top: -178px;
+    margin-right: 385px;
+}
+
+.about-girl-img{
+    width: 495px;
+    height: 613px;
+    flex-shrink: 0;
+    float: left;
+    mix-blend-mode: multiply;
+}
+
+.about-guy-img{
+    mix-blend-mode: multiply;
+    width: 463px;
+    height: 572px;
+    flex-shrink: 0;
+}
+
+.about-section-two{
+    display: flex;
+    right: 0;   
+    justify-content: right;
+    margin-top: -70px;
+    margin-right: 00px;
+}
+
+.about-eyes-img{
+    width: 362px;
+    height: 572px;
+    flex-shrink: 0;
+}
