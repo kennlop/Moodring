@@ -284,6 +284,15 @@ body{
     flex-direction: column;
 }
 
+.event-link{
+    display: flex;
+    margin-top: -100px;
+}
+
+.hand{
+    margin-top: 15px;
+}
+
 .event-more{
     flex-direction: row;
 }
@@ -1084,6 +1093,11 @@ body > div.calendar > p:nth-child(n){
     margin-top: -50px;
     flex-shrink: 0;
     margin-left: 13px;
+}
+
+.calendar-moons-half{
+    margin-left: 50px;
+    stroke-width: 1.5px;
 }
 
 .calendar-moons{
