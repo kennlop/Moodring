@@ -52,7 +52,7 @@
     line-height: 20px;
 }
 
-.ABCORACLExlg{
+.ABCORACLExlg, .ABCORACLExlg-cal{
     font-family: 'ABCOraclePlusVariable-Trial';
     font-size: 22px;
     font-style: normal;
@@ -245,7 +245,7 @@ body{
     margin-top: 160px;
 }
 
-.home-tagline-bold, .home-tagline-bold2, .name, .email, .send, .send-box, .home-tagline-bold-cocktails, .home-tagline-bold-special{
+.home-tagline-bold-events, .home-tagline-bold, .home-tagline-bold2, .name, .email, .send, .send-box, .home-tagline-bold-cocktails, .home-tagline-bold-special{
     font-family: 'ABCAsfaltTrial-Regular';
     font-size: 90.527px;
     font-style: normal;
@@ -984,4 +984,97 @@ body > div.about-section-four > div.about-section-four-left > p:nth-child(3){
 /* magazine names and promo */
 body > div.about-section-four > div.about-section-four-left > p:nth-child(2), body > div.about-section-four > div.about-section-four-left > p:nth-child(4){
     text-align: left;
+}
+
+/* ---------- EVENTS PAGE ---------*/
+/* ---------- EVENTS PAGE ---------*/
+
+/* JUNE 2023*/
+.home-tagline-bold-events{
+    margin-top: -30px;
+    line-height: 0px;
+    margin-bottom: -30px;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 3fr);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+  }
+  
+  @media (min-width: 1700px) {
+    .calendar {
+      grid-template-columns: (7, 1fr);
+    }
+  }
+  
+  @media (min-width: 820px) and (max-width: 1699px) {
+    .calendar {
+      grid-template-columns: repeat(4, 1fr);
+      width: 880px;
+    }
+    .calendar > div{
+        width: 181px;
+    }
+}
+  
+  @media (max-width: 819px) {
+    .calendar {
+      grid-template-columns: repeat(2, 1fr);
+      width: 410px;
+    }
+
+    .calendar > div {
+        width: 166px;
+      }
+  }
+
+body > div.calendar > p:nth-child(n){
+    text-align: left;
+    margin: 0;
+    margin-top: 80px;
+}
+  
+.calendar > div {
+    text-align: left;
+    width: 170px;
+    height: 227px;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 4.5px;
+    background-color: black;
+    overflow: hidden
+}
+
+.ABCORACLExlg-cal{
+    text-align: right !important;
+    margin-top: 0;
+    color: #F2F2F2 !important;
+    z-index: 10;
+}
+
+.calendar-moons{
+    stroke-width: 1.5px;
+    stroke: black;
+    width: 133px;
+    height: 240px;
+    margin-top: -50px;
+    flex-shrink: 0;
+    margin-left: 22px;
+}
+
+.ABCORACLExlg-cal {
+    color: black;
+}
+
+.calendar > div:hover {
+    background-color: transparent;
+    .calendar-moons {
+        display: none;
+    }
+    .ABCORACLExlg-cal {
+        color: black !important;
+    }
 }
