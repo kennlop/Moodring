@@ -1002,6 +1002,7 @@ body > div.about-section-four > div.about-section-four-left > p:nth-child(2), bo
     margin-left: auto;
     margin-right: auto;
     width: 1500px;
+    margin-bottom: 130px;
   }
   
   @media (min-width: 1700px) {
@@ -1076,6 +1077,15 @@ body > div.calendar > p:nth-child(n){
     z-index: 10;
 }
 
+.calendar-moons-circle{
+    width: 147px;
+    height: 240px;
+    stroke: black;
+    margin-top: -50px;
+    flex-shrink: 0;
+    margin-left: 13px;
+}
+
 .calendar-moons{
     stroke-width: 1.5px;
     stroke: black;
@@ -1088,7 +1098,7 @@ body > div.calendar > p:nth-child(n){
 
 .calendar > div:hover {
     background-color: transparent;
-    .calendar-moons {
+    .calendar-moons, .calendar-moons-circle{
         display: none;
     }
     .ABCORACLExlg-cal {
