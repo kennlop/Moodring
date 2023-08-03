@@ -6,6 +6,7 @@ function changeColorModeAndNavigate(color) {
   
   // Redirect to home.html
   window.location.href = 'home.html';
+  window.location.reload();
 }
 
 // Function to apply color mode to header-menu on home.html

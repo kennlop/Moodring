@@ -887,10 +887,101 @@ body > div > div.about-section-one-bottom > p{
     justify-content: right;
     margin-top: -70px;
     margin-right: 00px;
+    text-align: left;
 }
 
 .about-eyes-img{
     width: 362px;
     height: 572px;
     flex-shrink: 0;
+}
+
+.about-section-two-left{
+    text-align: left;
+    margin-top: 300px;
+    justify-content: left !important;
+    margin-right: -130px;
+    z-index: 10;
+}
+
+.number-section{
+    display: flex;
+    margin-top: 150px;
+}
+
+/* email in the about section*/
+body > div.about-section-two > div.about-section-two-left > p.home-tagline-bold{
+    margin-top: 120px;
+    line-height:0px;
+    text-align: left;
+}
+
+/*⑨①⑦ ⑧①⑧ ①⑦③⑧*/
+body > div.about-section-two > div.about-section-two-left > div > p.ABCORACLExlg{
+    line-height: 0;
+    margin: 0;
+    margin-top: -90px;
+    margin-left: 10px;
+}
+
+.about-section-three{
+    margin-top: -250px;
+    display: flex;
+    justify-content: left;
+}
+
+.about-lights-img{
+    width: 387px;
+    height: 570px;
+    mix-blend-mode: multiply;
+}
+
+.about-section-three-right{
+    flex-direction: column;
+    margin-left: 43px;
+    margin-top: 100px;
+}
+
+/* 1260 myrtle ave */
+body > div.about-section-three > div.about-section-three-right > p.home-tagline-bold{
+ text-align: left;
+}
+
+/* Steps from the Central Ave M Subway <br>
+                10min walk from the Myrtle-Broadway JMZ <br>
+                15min walk from Dekalb Ave L*/
+                body > div.about-section-three > div.about-section-three-right > p.home-tagline{
+                    text-align: left;
+                }
+
+.about-section-four{
+    margin-top: -150px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: right;
+    margin-right: 40px;
+}
+
+.about-washedout-img{
+        width: 541px;
+    height: 665.164px;
+}
+
+.about-section-four-left{
+    margin-right: 160px;
+}
+
+/*select press and our patreon*/
+body > div.about-section-four > div.about-section-four-left > p:nth-child(1) , body > div.about-section-four > div.about-section-four-left > p:nth-child(3){
+    text-align: left;
+}
+
+/*margin between select press block of text and our patreon section*/
+body > div.about-section-four > div.about-section-four-left > p:nth-child(3){
+    margin-top: 170px;
+}
+
+/* magazine names and promo */
+body > div.about-section-four > div.about-section-four-left > p:nth-child(2), body > div.about-section-four > div.about-section-four-left > p:nth-child(4){
+    text-align: left;
 }
