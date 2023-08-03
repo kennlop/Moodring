@@ -1014,9 +1014,16 @@ body > div.about-section-four > div.about-section-four-left > p:nth-child(2), bo
     .calendar {
       grid-template-columns: repeat(4, 1fr);
       width: 880px;
+      margin-top: 100px;
     }
     .calendar > div{
         width: 181px;
+    }
+    body > div > p:nth-child(n){
+        display: none;
+    }
+    .calendar-blank{
+        display: none;
     }
 }
   
@@ -1024,11 +1031,19 @@ body > div.about-section-four > div.about-section-four-left > p:nth-child(2), bo
     .calendar {
       grid-template-columns: repeat(2, 1fr);
       width: 410px;
+      margin-top: 100px;
     }
 
     .calendar > div {
         width: 166px;
       }
+
+    body > div > p:nth-child(n){
+        display: none;
+    }
+      .calendar-blank{
+        display: none;
+    }
   }
 
 body > div.calendar > p:nth-child(n){
@@ -1048,6 +1063,12 @@ body > div.calendar > p:nth-child(n){
     overflow: hidden
 }
 
+/* blank calendar cells only used in desktop mode */
+.calendar-blank{
+    background-color: transparent !important;
+    border: transparent !important;
+}
+
 .ABCORACLExlg-cal{
     text-align: right !important;
     margin-top: 0;
@@ -1063,10 +1084,6 @@ body > div.calendar > p:nth-child(n){
     margin-top: -50px;
     flex-shrink: 0;
     margin-left: 22px;
-}
-
-.ABCORACLExlg-cal {
-    color: black;
 }
 
 .calendar > div:hover {
