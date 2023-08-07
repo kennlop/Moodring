@@ -1056,6 +1056,7 @@ body > div.about-section-four > div.about-section-four-left > p:nth-child(2), bo
     }
   }
 
+/*S M T W T F S*/
 body > div.calendar > p:nth-child(n){
     text-align: left;
     margin: 0;
@@ -1069,7 +1070,7 @@ body > div.calendar > p:nth-child(n){
     border: 1px solid black;
     padding: 15px;
     margin: 4.5px;
-    background-color: black;
+    background-color: ;
     overflow: hidden
 }
 
@@ -1108,14 +1109,35 @@ body > div.calendar > p:nth-child(n){
     margin-top: -50px;
     flex-shrink: 0;
     margin-left: 22px;
+    display: none;
+}
+
+/* DATES */
+body > div.calendar > div:nth-child(n) > p.ABCORACLExlg-cal{
+    color: black;
+}
+/* EVENT NAME AND INFO */
+body > div.calendar > div:nth-child(n) > p.ABCORACLElg{
+    color: black;
 }
 
 .calendar > div:hover {
+    background-color: #000 !important;
     background-color: transparent;
     .calendar-moons, .calendar-moons-circle{
-        display: none;
+        display: block;
+        z-index: ;
     }
     .ABCORACLExlg-cal {
-        color: black !important;
+        color: black;
+    }
+}
+
+@media (max-width: 1300px) {
+    .page-title{
+        font-size: 100px;
+    }
+    .page-footer{
+        font-size: 75px;
     }
 }
