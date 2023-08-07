@@ -39,21 +39,26 @@
 .ABCORACLEsm , .message{
     font-family: 'ABCOraclePlusVariable-Trial';
     font-size: 14px;
-    font-style: normal;
+    font-style: light;
     font-weight: 300;
     line-height: 20px;
 }
 
 .ABCORACLElg{
     font-family: 'ABCOraclePlusVariable-Trial';
+    font-family: 'ABCOraclePlusVariable-Trial';
+    font-family: ABC Oracle Plus Variable Unlicensed Trial;
     font-size: 18px;
     font-style: normal;
-    font-weight: 300;
     line-height: 20px;
+    font-weight: 300;
 }
 
 .ABCORACLExlg, .ABCORACLExlg-cal{
     font-family: 'ABCOraclePlusVariable-Trial';
+    font-family: 'ABCOraclePlusVariable-Trial';
+    font-family: ABC Oracle Plus Variable Unlicensed Trial;
+    font-weight: 200;
     font-size: 22px;
     font-style: normal;
     font-weight: 300;
