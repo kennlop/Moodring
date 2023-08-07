@@ -1083,7 +1083,7 @@ body > div.calendar > p:nth-child(n){
 .ABCORACLExlg-cal{
     text-align: right !important;
     margin-top: 0;
-    color: #F2F2F2 !important;
+    color: black;
     z-index: 10;
 }
 
@@ -1123,13 +1123,13 @@ body > div.calendar > div:nth-child(n) > p.ABCORACLElg{
 
 .calendar > div:hover {
     background-color: #000 !important;
-    background-color: transparent;
     .calendar-moons, .calendar-moons-circle{
         display: block;
-        z-index: ;
+        z-index: 1;
     }
     .ABCORACLExlg-cal {
-        color: black;
+        color: white !important;
+        z-index: 10;
     }
 }
 
