@@ -1165,12 +1165,75 @@ body > div.calendar > div:nth-child(n) > p.ABCORACLElg{
     }
 }
 
+body > div.center-tagline2 > div > p.ABCORACLElg{
+    text-align: left;
+}
+
+/* Home page mobile styling */
+/* Home page mobile styling */
+.event-more-mobile{
+    display: none;
+}
 @media (max-width: 1300px) {
     .page-title{
         font-size: 100px;
+        margin-bottom: 100px;
     }
     .page-footer{
         font-size: 75px;
+    }
+
+    .home-tagline-bold, .home-tagline-bold2{
+        font-size: 75px;
+        margin-top: 0px;
+    }
+
+    /* CELEBRATE PRIDE WITH US */
+    .center-tagline{
+        margin-top: 130px;
+    }
+    .home-tagline{
+        font-size: 14px;
+    }
+    .ABCORACLEsm{
+        font-size: 11px;
+    }
+
+    .event-list{
+        margin: 0px;
+        padding: 0px;
+        width:800px
+    }
+    .moons{
+        height: 159px;
+        margin-right: 0px;
+        margin: 0px;
+        padding: 0px !important;
+    }
+    .event-more{
+        display: none;
+    }
+
+    .event-more-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+
+    .home-tagline-bold2{
+        margin-top: 50px;
+    }
+
+    .ABCORACLElg{
+        font-size: 14px;
+    }
+
+    .bjork{
+        width: 279px;
+        height: 320px;
+        margin-bottom: -20px;
     }
 }
 
