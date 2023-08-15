@@ -38,6 +38,7 @@
 
 .ABCORACLEsm , .message{
     font-family: 'ABCOraclePlusVariable-Trial';
+    font-family: ABC Oracle Plus Variable Unlicensed Trial;
     font-size: 14px;
     font-style: light;
     font-weight: 300;
@@ -45,7 +46,6 @@
 }
 
 .ABCORACLElg{
-    font-family: 'ABCOraclePlusVariable-Trial';
     font-family: 'ABCOraclePlusVariable-Trial';
     font-family: ABC Oracle Plus Variable Unlicensed Trial;
     font-size: 18px;
@@ -69,6 +69,8 @@
     background-color: black;
 }
 
+/* INDEX PAGE */
+/* INDEX PAGE */
 body{
     margin: 0px;
     padding: 0px;
@@ -83,15 +85,16 @@ body{
     background-color: #F2F2F2;
     width: 722px;
     height: 144px;
-    flex-shrink: 0;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
 }
 
 .black-bg{
-    z-index: 1;
+
     background-color: black;
     height: 100vh;
     width: 100vw;
@@ -99,7 +102,6 @@ body{
 }
 
 .popup-text{
-    z-index: 2;
     text-align: center;
     font-family: 'ABCOraclePlusVariable-Trial';
     font-size: 22px;
@@ -152,6 +154,31 @@ body{
     background: linear-gradient(180deg, rgba(239, 69, 161, 0) 21.35%, #EF45A1 100%);
 }
 
+@media (max-width: 819px) {
+    .popup-text{
+        margin-top: 50px;
+    }
+    .index-popup{
+        width: 384px;
+        height: 424px;
+        flex-direction: column;
+        margin-top: 0px !important;
+    }
+    .popup-button-container{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .popup-happy, .popup-lucky, .popup-calm, .popup-cool, .popup-romantic{
+        width: 179px;
+        height: 39px;
+        margin: 0;
+        margin-bottom: 19px !important;
+        padding: 0px 0px;
+    }
+}
 
 /*CODE FOR THE HEADER*/
 .header-menu{
@@ -1034,7 +1061,7 @@ body > div.about-section-four > div.about-section-four-left > p:nth-child(2), bo
     .calendar > div{
         width: 181px;
     }
-    body > div > p:nth-child(n){
+    body > div.calendar > p:nth-child(n){
         display: none;
     }
     .calendar-blank{
@@ -1053,7 +1080,7 @@ body > div.about-section-four > div.about-section-four-left > p:nth-child(2), bo
         width: 166px;
       }
 
-    body > div > p:nth-child(n){
+    body > div.calendar > p:nth-child(n){
         display: none;
     }
       .calendar-blank{
@@ -1146,3 +1173,4 @@ body > div.calendar > div:nth-child(n) > p.ABCORACLElg{
         font-size: 75px;
     }
 }
+
