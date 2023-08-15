@@ -1437,8 +1437,11 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         flex-wrap: wrap;
     }
 
-    .event1{
-        margin-right: 50px;
+    .event2{
+        margin-right: 5px;
+    }
+    .event4{
+        margin-left: 15px;
     }
     /* middle circular moon */
     body > div.event-list > div.event3 > svg{
