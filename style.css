@@ -36,7 +36,7 @@
     --bg-grey: #f2f2f2;
 }
 
-.ABCORACLEsm , .message{
+.ABCORACLEsm , .message, .ABCORACLElg-mobile{
     font-family: 'ABCOraclePlusVariable-Trial';
     font-family: ABC Oracle Plus Variable Unlicensed Trial;
     font-size: 14px;
@@ -157,6 +157,7 @@ body{
 @media (max-width: 819px) {
     .popup-text{
         margin-top: 50px;
+        font-size: 22px !important;
     }
     .index-popup{
         width: 384px;
@@ -171,12 +172,41 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .popup-happy, .popup-lucky, .popup-calm, .popup-cool, .popup-romantic{
+    body > div > div > button.popup-happy, body > div > div > button.popup-lucky, body > div > div > button.popup-calm, body > div > div > button.popup-cool, body > div > div > button.popup-romantic{
         width: 179px;
         height: 39px;
         margin: 0;
         margin-bottom: 19px !important;
         padding: 0px 0px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    .popup-text{
+        margin-top: 30px;
+        font-size: 18px !important;
+    }
+    .index-popup{
+        width: 350px;
+        height: 388px;
+        flex-direction: column;
+        margin-top: 0px !important;
+    }
+    .popup-button-container{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    body > div > div > button.popup-happy, body > div > div > button.popup-lucky, body > div > div > button.popup-calm, body > div > div > button.popup-cool, body > div > div > button.popup-romantic{
+        width: 179px;
+        height: 39px;
+        margin: 0;
+        margin-bottom: 19px !important;
+        padding: 0px 0px;
+        font-size: 18px;
     }
 }
 
@@ -277,7 +307,7 @@ body{
     margin-top: 160px;
 }
 
-.home-tagline-bold-events, .home-tagline-bold, .home-tagline-bold2, .name, .email, .send, .send-box, .home-tagline-bold-cocktails, .home-tagline-bold-special{
+.home-tagline-bold-events, .home-tagline-bold, .home-tagline-bold2, .name, .email, .send, .send-box, .home-tagline-bold-cocktails, .home-tagline-bold-special, .home-tagline-bold-mobile{
     font-family: 'ABCAsfaltTrial-Regular';
     font-size: 90.527px;
     font-style: normal;
@@ -583,7 +613,7 @@ footer{
     padding-bottom: 70px;
 }
 
-.address, .mailing-list, .date , .change-mood{
+.address, .mailing-list, .date , .change-mood, .change-mood-mobile{
     display: flex;
     flex-direction: column;
     align-items:flex-start;
@@ -1173,20 +1203,115 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     text-align: left;
 }
 
-/* Home page mobile styling */
-/* Home page mobile styling */
-.event-more-mobile{
-    display: none;
-}
-@media (max-width: 1300px) {
+@media (max-width:1500px){
     .page-title{
         font-size: 100px;
         margin-bottom: 100px;
     }
     .page-footer{
         font-size: 75px;
+        margin-top: 50px !important;
+        padding-top: 630px;
+    }
+}
+
+@media (max-width:800px){
+    .page-title{
+        font-size: 80px;
+        margin-top: -90px;
+        margin-bottom: 150px;
+        line-height: 90px;
+    }
+    .nav-item{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item:first-child{
+        padding-right: 0px;
+    }
+}
+
+/* GIF SECTION */
+@media (max-width:1450px){
+    .gifs{
+        display: flex;
+        flex-wrap: wrap;
+        width: 800px;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    .gif1{
+        width: 280px;
+        height: 50px;
+        margin-right: 5px;
+    }
+    .gif2{
+        width: 304px;
+        height: 50px;
+        margin-right: 5px;}
+    .gif3{
+        width: 179px;
+        height: 50px;
+        margin-right: 0px;}
+    .gif4{
+        width: 283px;
+        height: 60px;
+        margin-right: 5px;}
+    .gif5{
+        width: 485px;
+        height: 60px;
+        margin-right: 0px;}
+    .gif1, .gif2, .gif3, .gif4, .gif5{  
+        margin-bottom: 5px;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    .gifs {
+      flex-wrap:wrap;
+      width: 360px;
+    }
+    
+    .gif1{
+        width: 168px;
+        height: 29px;
+        margin-right: 1px;
+        margin-bottom: 1px;
+    }
+    .gif2{
+        width: 181px;
+        height: 29px;
+        margin-right: 0px;
+        margin-bottom: 1px;}
+    .gif3{
+        width: 149.739px;
+        height: 42px;
+        margin-right: 1px;
+        margin-bottom: 1px;
+    }
+    .gif4{
+        width: 198.83px;
+        height: 42px;
+        margin-bottom: 1px;
+        margin-right: 0px;
+    }
+    .gif5{
+        width: 350px;
+        height: 43px;
+        margin-right: 0px;
+        margin: 0px;}
+}
+
+/* Home page mobile styling */
+/* Home page mobile styling */
+.event-more-mobile{
+    display: none;
+}
+@media (max-width: 1250px) {
     .home-tagline-bold, .home-tagline-bold2, .name ,.email ,.send{
         font-size: 75px;
         margin-top: 0px;
@@ -1230,7 +1355,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         margin-top: 50px;
     }
 
-    .ABCORACLElg{
+    .ABCORACLElg, .ABCORACLExlg{
         font-size: 14px;
     }
 
@@ -1259,62 +1384,196 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         width: 488px;
         margin-top: 40px;
     }
+
+    .address, .mailing-list, .date, .change-mood{
+        margin-right: 25px;
+    }
+
+    body > footer > div.change-mood > button.popup-happy, body > footer > div.change-mood > button.popup-lucky, body > footer > div.change-mood > button.popup-calm, body > footer > div.change-mood > button.popup-cool, body > footer > div.change-mood > button.popup-romantic {
+        font-size: 14px;
+        margin-bottom: 10px !important;
+    }
+    /* 917 818 1738 */
+    body > footer > div.address > p.ABCORACLExlg{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    /* -------------- */
+    body > footer > div.mailing-list > p.ABCORACLExlg{
+        margin-top: 30px;
+    }
 }
 
-@media (max-width:1450px){
-    .gifs{
+
+/* FOOTER FOR MOBILE */
+.mailing-list-mobile, .footer-nav-mobile, .change-mood-mobile{
+    display: none;
+}
+.home-tagline-bold-mobile, .ABCORACLElg-mobile{
+    display: none;
+}
+@media (max-width: 800px) {
+    .header-menu{
+        margin-left: -65px;
+        justify-content: space-around;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    body > header > div:nth-child(1), body > header > div:nth-child(2){
+        width: 100px;
+
+    }
+    .mailing-list{
+        display: none;
+    }
+
+    .home-tagline-bold, .home-tagline-bold-mobile{
+        font-size: 60px;
+    }
+
+    .event-list{
+        width: 300px !important;
         display: flex;
         flex-wrap: wrap;
-        width: 800px;
-        justify-content: center;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
     }
 
-    .gif1{
-        width: 280px;
-        height: 50px;}
-    .gif2{
-        width: 304px;
-        height: 50px;}
-    .gif3{
-        width: 179px;
-        height: 50px;}
-    .gif4{
-        width: 283px;
-        height: 60px;}
-    .gif5{
-        width: 485px;
-        height: 60px;}
-    .gif1, .gif2, .gif3, .gif4, .gif5{
+    .event1{
+        margin-right: 50px;
+    }
+    /* middle circular moon */
+    body > div.event-list > div.event3 > svg{
+        width: 208px;
+        height: 203px;
+    }
+
+    .event3{
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 120px;
+        margin-bottom: 130px;
+    }
+
+    .moons{
+        width: 170px;
+        height: 203px;
+    }
+
+    .thirteen{
+        margin-right: -250px;
+        font-size: 18px;
+    }
+
+    .home-drink{
+        padding-left: 0px;
+        padding-right: 40px;
+        flex-direction: row;
+        margin-bottom: -70px;
+    }
+    body > div.center-tagline2 > p{
+        margin-bottom: -50px;
+    }
+
+    /* dumb bitch juice MOBILE*/
+    .home-tagline-bold-mobile{
+        display: block;
+        text-align: right;
+        width: 100px;
+        margin-top: -400px;
+    }
+
+    .ABCORACLElg-mobile{
+        display: block;
+        text-align: left;
+        margin-top: -50px;
+    }
+    /* dumb bitch juice */
+    body > div.center-tagline2 > div > p.home-tagline-bold, body > div.center-tagline2 > div > p.ABCORACLElg{
+        display: none;
+    }
+
+    .bjork{
+        width: 241.586px;
+        height: 278.065px;
+    }
+
+    .form-copy{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .form-contact-info{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .contact-form{
+        margin-top: 10px;
+        width: 350px;
+    }
+
+    body > div.form-copy > div > p.ABCORACLExlg{
+        font-size: 24px;
+    }
+
+    .event5, .event4{
+        margin-bottom: 30px;
+    }
+
+    .mailing-list-mobile{
+        display: block;
+        width: 295px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .mailing-list, .footer-nav, .change-mood{
+        display: none;
+    }
+    .mailing-list-mobile, .footer-nav-mobile, .change-mood-mobile{
+        display: block;
+    }
+
+    body > footer > div.mailing-list-mobile > p.ABCAsfaltTrial-Regular{
+        line-height: 50px;
+        margin: 0px;
+        margin-top: 30px;
+    }
+    
+     .date, .change-mood-mobile{
+        width:200px;
+        margin-right: 0px;
+    }
+
+    .footer-nav-mobile, .change-mood-mobile, .address, .mailing-list, .date{
+        width: 150px;
+    }
+
+    .address, .footer-nav-mobile{
         
-        margin: 0px !important;
-        padding: 0px;
+        margin-right: 50px;
+    }
+
+    .change-mood-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page-footer{
+        font-size: 60px;
+        padding-top: 580px;
+    }
+
+    body > footer > div.change-mood-mobile > button.popup-happy, body > footer > div.change-mood-mobile > button.popup-lucky, body > footer > div.change-mood-mobile > button.popup-calm, body > footer > div.change-mood-mobile > button.popup-cool, body > footer > div.change-mood-mobile > button.popup-romantic{
+        font-size: 14px;
+        margin-bottom: 10px;
     }
 }
-
-@media (max-width: 800px) {
-    .gifs {
-      flex-wrap:wrap;
-      width: 360px;
-    }
-  
-    
-    .gif1{
-        width: 168px;
-        height: 29px;}
-    .gif2{
-        width: 181px;
-        height: 29px;}
-    .gif3{
-        width: 149.739px;
-        height: 42px;}
-    .gif4{
-        width: 198.83px;
-        height: 42px;}
-    .gif5{
-        width: 350px;
-        height: 43px;}
-       
-  }
