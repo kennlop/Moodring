@@ -522,6 +522,10 @@ body > div.center-tagline2 > div > p.home-tagline-bold{
     background-color: #000;
 }
 
+#send{
+    color: white !important;
+}
+
 a{
     color: black !important;
     text-decoration: none;
@@ -1183,7 +1187,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         font-size: 75px;
     }
 
-    .home-tagline-bold, .home-tagline-bold2{
+    .home-tagline-bold, .home-tagline-bold2, .name ,.email ,.send{
         font-size: 75px;
         margin-top: 0px;
     }
@@ -1235,5 +1239,82 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         height: 320px;
         margin-bottom: -20px;
     }
+
+    /* LETS GET IN TOUCH */
+    body > div.form-copy > p.home-tagline-bold2{
+        margin-top: 80px;
+        margin-bottom: 20px !important;
+    }
+    body > div.form-copy > p.ABCORACLElg{
+        margin-bottom: 58px;
+    }
+    .ABCORACLExl{
+        font-size: 20px;
+    }
+    body > div.form-copy > div > p.ABCORACLExlg{
+        padding-top: 70px !important;
+    }
+
+    .contact-form{
+        width: 488px;
+        margin-top: 40px;
+    }
 }
 
+@media (max-width:1450px){
+    .gifs{
+        display: flex;
+        flex-wrap: wrap;
+        width: 800px;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gif1{
+        width: 280px;
+        height: 50px;}
+    .gif2{
+        width: 304px;
+        height: 50px;}
+    .gif3{
+        width: 179px;
+        height: 50px;}
+    .gif4{
+        width: 283px;
+        height: 60px;}
+    .gif5{
+        width: 485px;
+        height: 60px;}
+    .gif1, .gif2, .gif3, .gif4, .gif5{
+        
+        margin: 0px !important;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    .gifs {
+      flex-wrap:wrap;
+      width: 360px;
+    }
+  
+    
+    .gif1{
+        width: 168px;
+        height: 29px;}
+    .gif2{
+        width: 181px;
+        height: 29px;}
+    .gif3{
+        width: 149.739px;
+        height: 42px;}
+    .gif4{
+        width: 198.83px;
+        height: 42px;}
+    .gif5{
+        width: 350px;
+        height: 43px;}
+       
+  }
