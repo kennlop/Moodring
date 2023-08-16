@@ -282,14 +282,15 @@ body{
 }
 
 .page-footer{
+    position: relative;
+    z-index: 10;
     font-family: 'CivilitateTrialV0.2-Hairline';
     font-size: 130.972px;
     font-style: normal;
     font-weight: 100;
     /*line-height: 0px;*/
     text-align: center;
-  
-    
+    margin-top: -50px;
 }
 
 .home-tagline{
@@ -631,7 +632,7 @@ body{
 .footer-color{
     z-index: 1;
     position: relative;
-    margin-top: -550px;
+    margin-top: -809px;
     padding-bottom: 30px;
     height: 709px;
     line-height: 50px;
@@ -1229,7 +1230,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         margin-bottom: 100px;
     }
     .footer-color{
-        margin-top: -630px;
+        margin-top: -780px;
         padding-top: 0px;
     }
 
@@ -1436,6 +1437,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
 .home-tagline-bold-mobile, .ABCORACLElg-mobile{
     display: none;
 }
+
 @media (max-width: 800px) {
     .header-menu{
         margin-left: -65px;
@@ -1603,7 +1605,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     }
 
     .footer-color{
-        margin-top: -600px;
+        margin-top: -770px;
         padding-top: 0px;
     }
 
@@ -1611,5 +1613,5 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         font-size: 14px;
         margin-bottom: 10px;
     }
-    .footer
+    
 }

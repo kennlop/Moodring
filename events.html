@@ -446,21 +446,18 @@
         </div>
     </footer>
 
+    <h2 class="page-footer">Love saves the Day</h2>
     <div class="footer-color">
-        <h2 class="page-footer">Love saves the Day</h2>
     </div>
-
-   
-
+    <script>
+        const headerMenu = document.querySelector('.header-menu');
+        const footerColor = document.querySelector('.footer-color');
+        const storedColorMode = localStorage.getItem('colorMode');
+        
+        if (storedColorMode) {
+            headerMenu.classList.add(storedColorMode);
+            footerColor.classList.add(storedColorMode)
+        }
+    </script>
 </body>
-<script>
-    const headerMenu = document.querySelector('.header-menu');
-    const footerColor = document.querySelector('.footer-color');
-    const storedColorMode = localStorage.getItem('colorMode');
-    
-    if (storedColorMode) {
-        headerMenu.classList.add(storedColorMode);
-        footerColor.classList.add(storedColorMode)
-    }
-</script>
 </html>
