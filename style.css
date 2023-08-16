@@ -1240,6 +1240,16 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
 
 }
 
+@media (max-width:500px){
+    .footer-color{
+        margin-top: -730px;
+        padding-top: 0px;
+    }
+    .page-footer{
+        margin-top: -90px;
+    }
+}
+
 @media (max-width:800px){
     .page-title{
         font-size: 80px;
@@ -1613,5 +1623,4 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         font-size: 14px;
         margin-bottom: 10px;
     }
-    
 }
