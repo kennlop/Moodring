@@ -286,7 +286,11 @@ body{
     font-weight: 100;
     /*line-height: 0px;*/
     text-align: center;
-    padding-top: 550px;
+    position: absolute;
+    width: 98vw;
+    bottom: 0;
+    left: 0;
+    
 }
 
 .home-tagline{
@@ -620,10 +624,22 @@ footer{
     margin: 0;
     margin-right: 93px;
 }
+
+body{
+    overflow-x: hidden;
+}
 .footer-color{
-    margin-top: -709px;
-    padding-bottom: 70px;
+    z-index: 1;
+    position: relative;
+    margin-top: -550px;
+    padding-bottom: 30px;
     height: 709px;
+    line-height: 50px;
+}
+
+footer, .gifs, .form-div{
+    position: relative;
+    z-index: 10;
 }
 /*DIFFERENT FOOTER COLORS*/
 /*DIFFERENT FOOTER COLORS*/
@@ -1208,11 +1224,15 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         font-size: 100px;
         margin-bottom: 100px;
     }
+    .footer-color{
+        margin-top: -630px;
+        padding-top: 0px;
+    }
+
     .page-footer{
         font-size: 75px;
-        margin-top: 50px !important;
-        padding-top: 630px;
     }
+
 }
 
 @media (max-width:800px){
@@ -1552,17 +1572,20 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     }
     
      .date, .change-mood-mobile{
-        width:200px;
+        width:150px;
         margin-right: 0px;
     }
 
-    .footer-nav-mobile, .change-mood-mobile, .address, .mailing-list, .date{
+    .footer-nav-mobile, .change-mood-mobile, .address, .date{
         width: 150px;
     }
 
+    .footer-nav-mobile, .address{
+        margin-left: 20px;
+    }
+
     .address, .footer-nav-mobile{
-        
-        margin-right: 50px;
+        margin-right: 35px;
     }
 
     .change-mood-mobile{
@@ -1571,12 +1594,18 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     }
 
     .page-footer{
-        font-size: 60px;
-        padding-top: 580px;
+        font-size: 60px !important;
+        line-height: 90px;
+    }
+
+    .footer-color{
+        margin-top: -600px;
+        padding-top: 0px;
     }
 
     body > footer > div.change-mood-mobile > button.popup-happy, body > footer > div.change-mood-mobile > button.popup-lucky, body > footer > div.change-mood-mobile > button.popup-calm, body > footer > div.change-mood-mobile > button.popup-cool, body > footer > div.change-mood-mobile > button.popup-romantic{
         font-size: 14px;
         margin-bottom: 10px;
     }
+    .footer
 }
