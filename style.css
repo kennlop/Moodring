@@ -213,6 +213,7 @@ body{
 
 /*CODE FOR THE HEADER*/
 .header-menu{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items:start;
@@ -287,10 +288,7 @@ body{
     font-weight: 100;
     /*line-height: 0px;*/
     text-align: center;
-    position: absolute;
-    width: 98vw;
-    bottom: 0;
-    left: 0;
+  
     
 }
 
@@ -609,7 +607,7 @@ a{
 /*FOOTER*/
 /*FOOTER*/
 
-footer{
+footer {
     position: relative !important;
     margin-top: 60px;
     display: flex;
@@ -637,6 +635,10 @@ body{
     padding-bottom: 30px;
     height: 709px;
     line-height: 50px;
+}
+
+header {
+    position: relative;
 }
 
 footer, .gifs, .form-div{
