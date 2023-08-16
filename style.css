@@ -79,6 +79,7 @@ body{
     -moz-osx-font-smoothing: grayscale;
     letter-spacing: 0.02em;
     background-color: #F2F2F2;
+    overflow-x: hidden !important;
 }
 
 .index-popup{
@@ -609,6 +610,7 @@ a{
 /*FOOTER*/
 
 footer{
+    position: relative !important;
     margin-top: 60px;
     display: flex;
     justify-content: center;
