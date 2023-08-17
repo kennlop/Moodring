@@ -1695,7 +1695,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     }
     .cherry-left{
         margin-top: -155px;
-        left: 18%;
+        left: auto
     }
     .hands{
         width: 28px;
@@ -1737,6 +1737,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     .cherry-right{
         margin-top: 260px;
         margin-right: 30px;
+        right: auto;
     }
     
     .menu-left{
@@ -1783,10 +1784,10 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         padding-right: 5px;
     }
     .angel-left{
-        right: 90vw;
+        right: auto;
     }
     .angel-right{
-        left: 56vw;
+        left: auto;
     }
 
     body > div.menu-options > div.menu-options-right > p.home-tagline-bold, body > div.menu-options > div.menu-options-left > p.home-tagline-bold{
