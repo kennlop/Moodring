@@ -37,8 +37,7 @@
 }
 
 .ABCORACLEsm , .message, .ABCORACLElg-mobile{
-    font-family: 'ABCOraclePlusVariable-Trial';
-    font-family: ABC Oracle Plus Variable Unlicensed Trial;
+    font-family: 'ABCOraclePlusVariable-Trial', sans-serif !important;
     font-size: 14px;
     font-style: light;
     font-weight: 300;
@@ -46,8 +45,7 @@
 }
 
 .ABCORACLElg{
-    font-family: 'ABCOraclePlusVariable-Trial';
-    font-family: ABC Oracle Plus Variable Unlicensed Trial;
+    font-family: 'ABCOraclePlusVariable-Trial', sans-serif !important;
     font-size: 18px;
     font-style: normal;
     line-height: 20px;
@@ -55,9 +53,7 @@
 }
 
 .ABCORACLExlg, .ABCORACLExlg-cal{
-    font-family: 'ABCOraclePlusVariable-Trial';
-    font-family: 'ABCOraclePlusVariable-Trial';
-    font-family: ABC Oracle Plus Variable Unlicensed Trial;
+    font-family: 'ABCOraclePlusVariable-Trial', sans-serif !important;
     font-weight: 200;
     font-size: 22px;
     font-style: normal;
@@ -242,7 +238,7 @@ body{
     padding-right: 40px;
     text-decoration: none;
     color: BLACK !important;
-    font-family: 'ABCOraclePlusVariable-Trial';
+    font-family: 'ABCOraclePlusVariable-Trial', sans-serif !important;
     font-size: 11px;
     font-style: normal;
     font-weight: 300;
@@ -300,7 +296,7 @@ body{
 }
 
 .home-tagline{
-    font-family: 'ABCOraclePlusVariable-Trial';
+    font-family: 'ABCOraclePlusVariable-Trial', sans-serif !important;
     text-align: center;
     font-family: ABC Oracle Plus Variable Unlicensed Trial;
     font-size: 18px;
@@ -457,7 +453,7 @@ body > div.center-tagline2 > div > p.home-tagline-bold{
 }
 
 .thirteen{
-    font-family: "ABCOraclePlusVariable-Trial";
+    font-family: 'ABCOraclePlusVariable-Trial', sans-serif !important;
     margin-right: -600px;
     margin-top: 80px;
     position:absolute;
@@ -467,7 +463,7 @@ body > div.center-tagline2 > div > p.home-tagline-bold{
 }
 
 .thirteen-drinks{
-    font-family: "ABCOraclePlusVariable-Trial";
+    font-family: 'ABCOraclePlusVariable-Trial', sans-serif !important;
     margin-top: 60px;
     margin-right: 20px;
 }
@@ -838,7 +834,7 @@ body > div.drinks-menu > div.menu-bottom > div.menu-middle > p:nth-child(1){
 
 /*margins for the thirteens*/
 .thirteen-drinks{
-    font-family: "ABCOraclePlusVariable-Trial";
+    font-family: 'ABCOraclePlusVariable-Trial', sans-serif !important;
     margin-right: 0;
 }
 
@@ -860,7 +856,7 @@ body > div.drinks-menu > div.menu-bottom > div.menu-right > p:nth-child(3){
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    font-family: "ABCOraclePlusVariable-Trial";
+    font-family: 'ABCOraclePlusVariable-Trial', sans-serif !important;
 }
 
 .menu-options{
@@ -879,7 +875,7 @@ body > div.drinks-menu > div.menu-bottom > div.menu-right > p:nth-child(3){
 }
 
 .moon, .heart{
-    font-family: 'ABCOraclePlusVariable-Trial';
+    font-family: 'ABCOraclePlusVariable-Trial', sans-serif !important;
     font-size: 50.435px;
     font-style: normal;
     font-weight: 400;
