@@ -82,6 +82,12 @@ body{
     overflow-x: hidden !important;
 }
 
+* [overflow: visible]{
+    border: 1px solid red;
+  background-color: yellow;
+  text-overflow: ellipsis;
+}
+
 .index-popup{
     background-color: #F2F2F2;
     width: 722px;
@@ -858,6 +864,7 @@ body > div.drinks-menu > div.menu-bottom > div.menu-right > p:nth-child(3){
 }
 
 .menu-options{
+    overflow-x: hidden;
     display: flex;
     justify-content: center;
     margin-bottom: 200px;
@@ -1752,7 +1759,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         margin-top: 30px;
     }
     .menu-bottom{
-        margin-left: -15px !important;
+        margin-left: -30px !important;
         margin-bottom: 160px;
         width: 360px;
         margin-left: auto;
