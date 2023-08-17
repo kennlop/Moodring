@@ -627,7 +627,7 @@ footer {
 }
 
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 .footer-color{
     z-index: 1;
