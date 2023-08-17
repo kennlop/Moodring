@@ -115,6 +115,10 @@ body{
     font-family: 'ABCOraclePlusVariable-Trial', sans-serif !important;
 }
 
+body > footer > div.change-mood-mobile > button.popup-happy, .body > footer > div.change-mood-mobile > button.popup-lucky, .body > footer > div.change-mood-mobile > button.popup-calm, .body > footer > div.change-mood-mobile > button.popup-cool, .body > footer > div.change-mood-mobile > button.popup-romatic{
+    font-family: 'ABCOraclePlusVariable-Trial', sans-serif !important;
+}
+
 .popup-happy, .popup-lucky, .popup-calm, .popup-cool, .popup-romantic{
     border-radius: 20px;
     border: 1px solid black;
@@ -1634,7 +1638,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     body > footer > div.change-mood-mobile > button.popup-happy, body > footer > div.change-mood-mobile > button.popup-lucky, body > footer > div.change-mood-mobile > button.popup-calm, body > footer > div.change-mood-mobile > button.popup-cool, body > footer > div.change-mood-mobile > button.popup-romantic , .menu-divider{
         font-size: 14px;
         margin-bottom: 10px;
-        font-family: ABC Oracle Plus Variable Unlicensed Trial !important;
+        font-family: 'ABCOraclePlusVariable-Trial', sans-serif;
     }
 
     /* CALENDAR MOBILE */
