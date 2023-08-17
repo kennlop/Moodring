@@ -111,6 +111,10 @@ body{
     text-align: center;
 }
 
+.change-mood{
+    font-family: 'ABCOraclePlusVariable-Trial', sans-serif !important;
+}
+
 .popup-happy, .popup-lucky, .popup-calm, .popup-cool, .popup-romantic{
     border-radius: 20px;
     border: 1px solid black;
@@ -292,7 +296,6 @@ body{
 .home-tagline{
     font-family: 'ABCOraclePlusVariable-Trial', sans-serif;
     text-align: center;
-    font-family: ABC Oracle Plus Variable Unlicensed Trial;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
