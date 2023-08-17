@@ -1248,6 +1248,10 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     .page-footer{
         margin-top: -70px;
     }
+
+    footer{
+        margin-bottom: -80px;
+    }
 }
 
 @media (max-width:800px){
