@@ -1817,6 +1817,68 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         font-size: 30px;
         transform: rotate(-90deg) !important;
     }
+
+    /* ABOUT PAGE */
+    /* ABOUT PAGE */
+    body > div.about-section-one > div.about-section-one-top{
+        flex-direction: column-reverse;
+        width: 380px;
+    }
+
+    .about-girl-img{
+        width: 237.654px;
+        height: 294.307px;
+    }
+
+    .about-guy-img{
+        width: 222.291px;
+        height: 274.623px;
+        margin-top: -85px;
+        padding-right: 60px;
+    }
+    /* WE ARE MOOD RING ... */
+    body > div.about-section-one > div.about-section-one-top > p{
+        margin-top: 30px;
+        margin-bottom: 100px;
+        padding-left: 0px;
+        width: 379px;
+    }
+
+    /* FULL BAR SERIVCE OPEN DAILY*/
+    body > div.about-section-one > div.about-section-one-bottom > p{
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-left: 45px;
+        width: 145px;
+        
+    }
+    .about-section-one-bottom{
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    .about-eyes-img{
+        width: 190px;
+        height: 334px;
+    }
+
+    .about-section-two{
+        margin-top: -40px;
+        margin-bottom: 270px;
+    }
+
+    .about-section-two-left{
+        margin-top: 100px;
+    }
+
+    .about-lights-img{
+        width: 267px;
+        height: 334px;
+    }
+    .about-washedout-img{
+        width: 272px;
+        height: 334px;
+    }
 }
 
 body > div.calendar > div:nth-child(15) > p.ABCORACLElg{
