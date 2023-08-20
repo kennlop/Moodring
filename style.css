@@ -241,7 +241,7 @@ body > footer > div.change-mood-mobile > button.popup-happy, .body > footer > di
     text-decoration: none;
     color: BLACK !important;
     font-family: 'ABCOraclePlusVariable-Trial', sans-serif;
-    font-size: 11px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -1454,7 +1454,6 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     }
 }
 
-
 /* FOOTER FOR MOBILE */
 .mailing-list-mobile, .footer-nav-mobile, .change-mood-mobile{
     display: none;
@@ -1465,13 +1464,20 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
 
 @media (max-width: 800px) {
     .header-menu{
-        margin-left: -65px;
+        margin-left: -100px;
         justify-content: space-around;
         padding-left: 20px;
         padding-right: 20px;
     }
+    .header-item{
+        width: 30vw;
+    }
+    .nav-item:first-child {
+        margin-right: 60px;
+    }
+
     body > header > div:nth-child(1), body > header > div:nth-child(2){
-        width: 100px;
+        width: 50px;
 
     }
     .mailing-list{
@@ -1639,8 +1645,6 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         font-size: 14px;
         margin-bottom: 10px;
         font-family: "font-full-461295","font-461295-9f532b1c88ba0d80031a1f1d38e868c8","DinamoLoading",sans-serif;
-        font-style: !important;
-        font-weight: 300 !important;
     }
 
     /* CALENDAR MOBILE */
@@ -1905,6 +1909,26 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     }
     .about-section-three{
         margin-bottom: 160px;
+    }
+}
+
+@media (max-width: 500px){
+    .header-menu{
+        margin-left: -100px;
+        justify-content: space-around;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .header-item{
+        width: 30vw;
+    }
+    .nav-item:first-child {
+        margin-right: 50px;
+    }
+
+    body > header > div:nth-child(1), body > header > div:nth-child(2){
+        width: 40px;
+
     }
 }
 
