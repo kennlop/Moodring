@@ -1512,7 +1512,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         height: 203px;
     }
 
-    .thirteen, .seven{
+    .thirteen, .seven, body > div.about-section-two > div.about-section-two-left > div > p.ABCORACLExlg{
         margin-right: -250px;
         font-size: 18px;
     }
@@ -1638,7 +1638,9 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     body > footer > div.change-mood-mobile > button.popup-happy, body > footer > div.change-mood-mobile > button.popup-lucky, body > footer > div.change-mood-mobile > button.popup-calm, body > footer > div.change-mood-mobile > button.popup-cool, body > footer > div.change-mood-mobile > button.popup-romantic , .menu-divider{
         font-size: 14px;
         margin-bottom: 10px;
-        font-family: 'ABCOraclePlusVariable-Trial', sans-serif;
+        font-family: "font-full-461295","font-461295-9f532b1c88ba0d80031a1f1d38e868c8","DinamoLoading",sans-serif;
+        font-style: !important;
+        font-weight: 300 !important;
     }
 
     /* CALENDAR MOBILE */
@@ -1868,16 +1870,41 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     }
 
     .about-section-two-left{
-        margin-top: 100px;
+        margin-top: 220px;
     }
 
     .about-lights-img{
-        width: 267px;
+        width: 207px;
         height: 334px;
     }
     .about-washedout-img{
         width: 272px;
         height: 334px;
+    }
+
+    /* JOBS, BOOKING , PRIVATE EVENTS... */
+    body > div.about-section-two > div.about-section-two-left > p.home-tagline{
+        margin-bottom: -115px;
+    }
+    /* call us at 917 ... */
+    body > div.about-section-two > div.about-section-two-left > div{
+        margin-top: 135px;
+    }
+    body > div.about-section-three > div.about-section-three-right{
+        margin-left: -90px;
+    }
+    body > div.about-section-three > div.about-section-three-right > p.home-tagline-bold{
+        width: 300px;
+    }
+    body > div.about-section-three > div.about-section-three-right > p.home-tagline-bold{
+        margin-bottom: 90px;
+    }
+
+    .about-section-three-right{
+        margin-top: 150px;
+    }
+    .about-section-three{
+        margin-bottom: 160px;
     }
 }
 
