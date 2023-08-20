@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'ABCOraclePlusVariable-Trial';
-    src: url('fonts/ABCOraclePlusVariable-Trial.ttf') format('truetype');
+    src: url('fonts/ABCOraclePlusVariable-Trial.otf') format('opentype');
     /* Add more src lines if you have multiple font formats */
 }
 
@@ -318,7 +318,7 @@ body > footer > div.change-mood-mobile > button.popup-happy, .body > footer > di
     font-family: 'ABCAsfaltTrial-Regular';
     font-size: 90.527px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     line-height: normal;
     text-align: center;
 }
