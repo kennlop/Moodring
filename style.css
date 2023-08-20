@@ -621,6 +621,10 @@ footer {
     padding-bottom: 70px;
 }
 
+.footer-nav-mobile, .change-mood-mobile{
+    z-index: 11 !important;
+}
+
 .address, .mailing-list, .date , .change-mood, .change-mood-mobile{
     display: flex;
     flex-direction: column;
