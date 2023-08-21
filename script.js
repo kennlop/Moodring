@@ -5,7 +5,7 @@ function changeColorModeAndNavigate(color) {
   localStorage.setItem('colorMode', color);
   
   // Redirect to home.html
-  window.location.href = 'home.html';
+  window.location.href = './home';
 }
 
 // Function to apply color mode to header-menu on home.html
