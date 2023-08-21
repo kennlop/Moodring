@@ -753,6 +753,14 @@ body > div > div.drink-text-left > h1, body > div > div.drink-text-right > h1 {
     font-family: "CivilitateTrialV0.2-Hairline";
 }
 
+.drink-text-left{
+    margin-right: 15px;
+}
+
+.drink-text-right{
+    margin-left: 15px;
+}
+
 .drinks-menu{
     margin-top: -60px;
     display: flex;
@@ -959,11 +967,16 @@ body > div.menu-options > div.menu-options-left > p.home-tagline-bold, body > di
     display: flex;
 }
 
+.about-section-one-top{
+
+}
+
 /*  we are moodring!! */
 body > div > div.about-section-one-top > p{
     text-align: left;
     margin-top: 180px;
     padding-left: 51px;
+    width: 550px;
 }
 
 /*FULL BAR SERVICE, OPEN DAILY...*/
@@ -1007,6 +1020,7 @@ body > div > div.about-section-one-bottom > p{
     width: 362px;
     height: 572px;
     flex-shrink: 0;
+    mix-blend-mode: multiply;
 }
 
 .about-section-two-left{
@@ -1077,7 +1091,9 @@ body > div.about-section-three > div.about-section-three-right > p.home-tagline-
 
 .about-washedout-img{
         width: 541px;
-    height: 665.164px;
+        height: 665.164px;
+        mix-blend-mode: multiply;
+        z-index: 10;
 }
 
 .about-section-four-left{
@@ -1235,6 +1251,11 @@ body > div.calendar > div:nth-child(n) > p.ABCORACLElg{
         color: white !important;
         z-index: 10;
     }
+}
+
+.calendar > .calendar-blank:hover{
+    background-color: transparent !important;
+   
 }
 
 body > div.center-tagline2 > div > p.ABCORACLElg{
@@ -1587,7 +1608,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
 
     .mailing-list-mobile{
         display: block;
-        width: 295px;
+        width: 320px;
         margin-right: auto;
         margin-left: auto;
     }
@@ -1840,6 +1861,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     .about-girl-img{
         width: 237.654px;
         height: 294.307px;
+        mix-blend-mode: multiply;
     }
 
     .about-guy-img{
@@ -1881,6 +1903,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
 
     .about-section-two-left{
         margin-top: 220px;
+        margin-right: -150px;
     }
 
     .about-lights-img{
@@ -1895,6 +1918,8 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     /* JOBS, BOOKING , PRIVATE EVENTS... */
     body > div.about-section-two > div.about-section-two-left > p.home-tagline{
         margin-bottom: -115px;
+        width: 340px;
+        
     }
     /* call us at 917 ... */
     body > div.about-section-two > div.about-section-two-left > div{
@@ -1915,6 +1940,25 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     }
     .about-section-three{
         margin-bottom: 160px;
+    }
+
+    .about-section-four-left{
+        margin-right: 30px;
+    }
+
+    /* SELECT PRESS */
+    body > div.about-section-four > div.about-section-four-left > p:nth-child(1){
+        margin-bottom: 90px;
+    /* OUR PATREON */
+    }
+    body > div.about-section-four > div.about-section-four-left > p:nth-child(3){
+        margin-top: 150px;
+        margin-bottom: 90px;
+    }
+    .about-section-four{
+        margin-bottom: -30px;
+        margin-right: -80px;
+        overflow-x: hidden;
     }
 }
 
@@ -1942,3 +1986,6 @@ body > div.calendar > div:nth-child(15) > p.ABCORACLElg{
     margin-top: -195px;
 }
 
+.about-section-two, .about-section-one, .about-section-three, .about-section-four, .about-section-four-left, .about-section-four-right, .about-washedout-img{
+    overflow-x: hidden !important;
+}
