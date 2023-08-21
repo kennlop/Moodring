@@ -1993,3 +1993,10 @@ body > div.calendar > div:nth-child(15) > p.ABCORACLElg{
 .about-section-two, .about-section-one, .about-section-three, .about-section-four, .about-section-four-left, .about-section-four-right, .about-washedout-img{
     overflow-x: hidden !important;
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+    background-color: transparent;
+  }
+  
+  
