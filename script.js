@@ -21,6 +21,6 @@ function applyColorModeToHeader() {
 }
 
 // Check if the current page is home.html and apply color mode to header-menu
-if (window.location.pathname.includes('home.html')) {
+if (window.location.pathname.includes('./home')) {
   applyColorModeToHeader();
 }
