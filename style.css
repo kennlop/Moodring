@@ -1133,7 +1133,7 @@ body > div.about-section-four > div.about-section-four-left > p:nth-child(1){
         margin-top: -7px;
     }
     .about-section-four{
-        margin-bottom: 0px !important;
+        margin-bottom: -30px !important;
     }
 }
 
@@ -1222,7 +1222,6 @@ body > div.calendar > p:nth-child(n){
     border: 1px solid black;
     padding: 15px;
     margin: 4.5px;
-    background-color: ;
     overflow: hidden
 }
 
@@ -2019,6 +2018,12 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     body > header > div:nth-child(1), body > header > div:nth-child(2){
         width: 40px;
 
+    }
+    .about-section-one, .about-section-two, .about-section-three, .about-section-four{
+        overflow-x: hidden;
+    }
+    .about-section-four{
+        height: 375px;
     }
 }
 
