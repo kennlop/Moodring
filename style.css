@@ -1090,7 +1090,7 @@ body > div.about-section-three > div.about-section-three-right > p.home-tagline-
 }
 
 .about-washedout-img{
-        width: 541px;
+        width: 381px;
         height: 665.164px;
         mix-blend-mode: multiply;
         z-index: 10;
@@ -1101,8 +1101,40 @@ body > div.about-section-three > div.about-section-three-right > p.home-tagline-
 }
 
 /*select press and our patreon*/
-body > div.about-section-four > div.about-section-four-left > p:nth-child(1) , body > div.about-section-four > div.about-section-four-left > p:nth-child(3){
+body > div.about-section-four > div.about-section-four-left > p:nth-child(1) , body > div.about-section-four > div.about-section-four-left > p:nth-child(3), body > div.about-section-four > div.about-section-four-left > p:nth-child(5), body > div.about-section-four > div.about-section-four-left > p:nth-child(6){
     text-align: left;
+}
+
+/*site credits*/
+body > div.about-section-four > div.about-section-four-left > p:nth-child(5){
+    margin-top: 170px;
+}
+div.about-section-four-left > p:nth-child(6){
+    position: relative;
+    z-index: 20;
+}
+body > div.about-section-four > div.about-section-four-left > p:nth-child(1){
+    margin-top: 50px;
+}
+
+@media (max-width: 800px) {
+    body > div.about-section-four > div.about-section-four-left > p:nth-child(1){
+        margin-top: 0px ;
+        margin-bottom: 50px;
+    }
+    body > div.about-section-four > div.about-section-four-left > p:nth-child(3){
+        margin-top: 135px !important;
+    }
+    body > div.about-section-four > div.about-section-four-left > p:nth-child(5){
+        margin-top: 135px;
+        margin-bottom: 90px;
+    }
+    .about-section-four-left{
+        margin-top: -7px;
+    }
+    .about-section-four{
+        margin-bottom: 0px !important;
+    }
 }
 
 /*margin between select press block of text and our patreon section*/
@@ -1920,7 +1952,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
         height: 334px;
     }
     .about-washedout-img{
-        width: 272px;
+        width: 172px;
         height: 334px;
     }
 
@@ -1966,8 +1998,7 @@ body > div.center-tagline2 > div > p.ABCORACLElg{
     }
     .about-section-four{
         margin-bottom: -30px;
-        margin-right: -80px;
-        overflow-x: hidden;
+        margin-right: 0px;
     }
 }
 
@@ -1995,9 +2026,7 @@ body > div.calendar > div:nth-child(15) > p.ABCORACLElg{
     margin-top: -195px;
 }
 
-.about-section-two, .about-section-one, .about-section-three, .about-section-four, .about-section-four-left, .about-section-four-right, .about-washedout-img{
-    overflow-x: hidden !important;
-}
+
 
 ::-webkit-scrollbar {
     width: 0px;
