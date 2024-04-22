@@ -620,6 +620,7 @@ footer {
     align-items: flex-start;
     float: inline-start;
     padding-bottom: 70px;
+    width: 100vw;
 }
 
 body > footer > div.footer-nav-mobile > p:nth-child(n) > a{
